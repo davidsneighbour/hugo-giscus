@@ -5,7 +5,7 @@
 
 <!--- CARD END --->
 
-## DNB Hugo Component / Giscus
+# DNB GoHugo Component / Giscus
 
 This is the Giscus comment system for GoHugo.
 
@@ -54,6 +54,7 @@ hugo mod get -u $REPONAME$
 # update all modules
 hugo mod get -u #
 ```
+
 <!--- INSTALLUPDATE END --->
 
 <!--- COMPONENTS BEGIN --->
