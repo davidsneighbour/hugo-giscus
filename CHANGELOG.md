@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/dnb-org/dnb-hugo-giscus/compare/v1.0.1...v1.0.2) (2022-02-03)
+
+
+### Chore
+
+* **config:** remove vscode configuration ([171efd5](https://github.com/dnb-org/dnb-hugo-giscus/commit/171efd5fa8f0b10fe76358c76222a80ee2e6909d))
+* **config:** update header images ([0664c7e](https://github.com/dnb-org/dnb-hugo-giscus/commit/0664c7ebdcbd6df949ff92c2d1346dd2ff106ee3))
+* update go version ([7b14726](https://github.com/dnb-org/dnb-hugo-giscus/commit/7b147268815c5c79a4d583ec98d54939af22f43e))
+* update repository files ([80ac0c6](https://github.com/dnb-org/dnb-hugo-giscus/commit/80ac0c65fc047388de3b9cc5d9ade6425dab8f2f))
+
+
+### Theme
+
+* **layouts:** add id giscus-script to script call ([dc37314](https://github.com/dnb-org/dnb-hugo-giscus/commit/dc3731465b41323d5895f20d79b98bb6b5d05100))
+
+
+### Build System
+
+* add docs prepare script to build system ([5b14889](https://github.com/dnb-org/dnb-hugo-giscus/commit/5b14889b04d59e01fd7478152d7102fd835c95ed))
+* configure build system ([0d6cd24](https://github.com/dnb-org/dnb-hugo-giscus/commit/0d6cd241f1a2812aa6ef95e7dfd58b6d3d46bb3f))
+* rework release scripts ([7365184](https://github.com/dnb-org/dnb-hugo-giscus/commit/73651845973aa24b0d1ab24d53da91a9e80fd2d1))
+
 ### [1.0.1](https://github.com/dnb-org/dnb-hugo-giscus/compare/v1.0.0...v1.0.1) (2021-12-25)
 
 
