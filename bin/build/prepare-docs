@@ -1,9 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 REQUIRED_TOOLS=(
   node
-  export
-  trap
 )
 
 for TOOL in "${REQUIRED_TOOLS[@]}"; do
@@ -13,17 +11,26 @@ for TOOL in "${REQUIRED_TOOLS[@]}"; do
   fi
 done
 
+# SCRIPTPATH="$(
+#   cd "$(dirname "$0")" >/dev/null 2>&1 || exit
+#   pwd -P
+# )"
+CURPATH="$(pwd -P)"
+
 trap "{ echo 'Terminated with Ctrl+C'; }" SIGINT
 
-FILE=.env
+FILE=${CURPATH}/.env
 if [ -f "$FILE" ]; then
   echo "exporting .env"
   set -a
+  # this routine ranges through a folder of files that we don't explicitly know (@davidsneighbour)
+  # see https://github.com/koalaman/shellcheck/wiki/SC1090
   # shellcheck source=/dev/null
   source "${FILE}"
   set +a
 fi
 
+# https://github.com/ozum/replace-between
 node ./node_modules/replace-between/bin/replace-between.js \
   --source "${TEMPLATEPATH}"/readme/components.md \
   --target README.md \
@@ -38,3 +45,5 @@ node ./node_modules/replace-between/bin/replace-between.js \
   --source "${TEMPLATEPATH}"/readme/thingstoknow.md \
   --target README.md \
   --token THINGSTOKNOW
+
+sed -i 's+##MODULENAME##+github.com/dnb-org/dnb-hugo-giscus+g' README.md

@@ -12,16 +12,16 @@
   "repository": "dnb-org/dnb-hugo-giscus",
   "bugs": "https://github.com/dnb-org/dnb-hugo-giscus/issues",
   "devDependencies": {
-    "@dnb-org/remark-config": "^3.4.2",
-    "@dnb-org/standard-version-config": "^3.4.1",
-    "@dnb-org/tools": "^3.4.1"
+    "@dnb-org/remark-config": "^3.5.3",
+    "@dnb-org/standard-version-config": "^3.5.2",
+    "@dnb-org/tools": "^3.5.2"
   },
   "scripts": {
     "clean": "run-p clean:*",
     "clean:npm": "rimraf node_modules package-lock.json",
-    "release": "standard-version --release-as patch -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
-    "release:major": "standard-version --release-as major -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
-    "release:minor": "standard-version --release-as minor -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh"
+    "release": "standard-version --release-as patch -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
+    "release:major": "standard-version --release-as major -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease",
+    "release:minor": "standard-version --release-as minor -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release/postrelease"
   },
   "private": true,
   "remarkConfig": {
@@ -29,9 +29,9 @@
       "@dnb-org/remark-config"
     ]
   },
-  "slug": "dnb-hugo-netlification",
+  "slug": "dnb-hugo-giscus",
   "dependencies": {
-    "mem": "^9.0.1",
+    "mem": "^9.0.2",
     "trim": "^1.0.1"
   }
 }
