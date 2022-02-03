@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/dnb-org/dnb-hugo-giscus/compare/v1.0.2...v1.0.3) (2022-02-03)
+
+
+### Chore
+
+* **config:** move configuration into config directory ([b00ee7e](https://github.com/dnb-org/dnb-hugo-giscus/commit/b00ee7ebb402f0cb9256e0b750fbc21d0d25c628))
+* **config:** proper data dir handling ([2ae76b3](https://github.com/dnb-org/dnb-hugo-giscus/commit/2ae76b386f6b5e69aebdc1e4f2b9177d3a3ec0fe))
+
+
+### Documentation
+
+* update LICENSE.md ([3930eeb](https://github.com/dnb-org/dnb-hugo-giscus/commit/3930eeb2e4af3bab26d2d7a91c78de85c90297be))
+
 ### [1.0.2](https://github.com/dnb-org/dnb-hugo-giscus/compare/v1.0.1...v1.0.2) (2022-02-03)
 
 
