@@ -7,3 +7,7 @@ min = "0.84.4"
 [[module.mounts]]
 source = "layouts"
 target = "layouts"
+
+[[module.mounts]]
+source = "data"
+target = "data"
