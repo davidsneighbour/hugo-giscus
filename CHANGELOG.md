@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/dnb-org/dnb-hugo-giscus/compare/v1.0.3...v1.0.4) (2022-02-10)
+
+
+### Features
+
+* move configuration to site.params.dnb.giscus ([95b5576](https://github.com/dnb-org/dnb-hugo-giscus/commit/95b55768f6ea36cf4f789a6614e0e6f20f37fce4))
+
+
+### Chore
+
+* **deps:** update dependencies ([4b3808e](https://github.com/dnb-org/dnb-hugo-giscus/commit/4b3808e99cdc15adabaa63545db73ee53e6b86f6))
+
 ### [1.0.3](https://github.com/dnb-org/dnb-hugo-giscus/compare/v1.0.2...v1.0.3) (2022-02-03)
 
 
