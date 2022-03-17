@@ -51,7 +51,9 @@ The next time you run `hugo` it will download the latest version of the module.
 ```shell
 # update this module
 hugo mod get -u github.com/dnb-org/dnb-hugo-giscus
-# update all modules
+# update to a specific version
+hugo mod get -u github.com/dnb-org/dnb-hugo-giscus@v1.0.0
+# update all modules recursively over the whole project
 hugo mod get -u ./...
 ```
 <!--- INSTALLUPDATE END --->
@@ -77,7 +79,7 @@ hugo mod get -u ./...
 | [dnb-hugo-netlification](https://github.com/dnb-org/dnb-hugo-netlification) | a collection of tools that optimize your site on Netlify |
 | [dnb-hugo-opensearch](https://github.com/dnb-org/dnb-hugo-opensearch) | configuration for Open Search |
 | [dnb-hugo-pictures](https://github.com/dnb-org/dnb-hugo-pictures) | |
-| [dnb-hugo-pwa](https://github.com/dnb-org/dnb-hugo-pwa) | Turn your site into a Progressive Web Application. Add caching, offline mode and favicon support. |
+| [dnb-hugo-pwa](https://github.com/dnb-org/dnb-hugo-pwa) | Automatically turns your site into a PWA |
 | [dnb-hugo-renderhooks](https://github.com/dnb-org/dnb-hugo-renderhooks) | render hooks for Markdown markup |
 | [dnb-hugo-robots](https://github.com/dnb-org/dnb-hugo-robots) | Add a customizable robots.txt to your website. |
 | [dnb-hugo-schema](https://github.com/dnb-org/dnb-hugo-schema) | |
