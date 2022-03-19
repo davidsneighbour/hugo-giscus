@@ -1,6 +1,7 @@
 {{- $context := . -}}
 {{- $dataMapping := site.Params.dnb.giscus.dataMapping | default "specific" -}}
 {{- with site.Params.dnb.giscus -}}
+<div id="comments" class="giscus"></div>
 <script src='{{- .src | default "https://giscus.app/client.js" -}}'
   data-repo="{{- .dataRepo -}}"
   data-repo-id="{{- .dataRepoId -}}"
