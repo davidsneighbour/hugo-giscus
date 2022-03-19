@@ -12,9 +12,9 @@
   "repository": "dnb-org/dnb-hugo-giscus",
   "bugs": "https://github.com/dnb-org/dnb-hugo-giscus/issues",
   "devDependencies": {
-    "@dnb-org/remark-config": "^3.5.6",
-    "@dnb-org/standard-version-config": "^3.5.5",
-    "@dnb-org/tools": "^3.5.5"
+    "@dnb-org/remark-config": "^3.5.11",
+    "@dnb-org/standard-version-config": "^3.5.9",
+    "@dnb-org/tools": "^3.5.9"
   },
   "scripts": {
     "clean": "run-p clean:*",
