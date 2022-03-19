@@ -7,7 +7,11 @@
 
 # DNB GoHugo Component / Giscus
 
-This is the Giscus comment system for GoHugo.
+This is a Hugo theme component to add the Giscus comment system to static websites.
+
+[Giscus](https://giscus.app/) is a comments system powered by GitHub Discussions.
+
+**Note:** Giscus is still under active development. GitHub is also still actively developing Discussions and its API. Thus, some features of giscus may break or change over time. We will keep an eye out for any updates and implement them here in time.
 
 <!--- THINGSTOKNOW BEGIN --->
 
@@ -28,27 +32,27 @@ The following documentation will refer to all configuration parameters in TOML f
 
 ## Installing
 
-First enable modules in your own repository:
+First enable modules in your own repository if you did not already have done so:
 
 ```bash
 hugo mod init github.com/username/reponame
 ```
 
-Then add this module to your required modules in config.toml.
+Then add this module to your required modules in `config.toml`.
 
 ```toml
-[module]
-
 [[module.imports]]
 path = "github.com/dnb-org/dnb-hugo-giscus"
-
+disable = false
+ignoreConfig = false
+ignoreImports = false
 ```
 
 The next time you run `hugo` it will download the latest version of the module.
 
 ## Updating
 
-```shell
+```bash
 # update this module
 hugo mod get -u github.com/dnb-org/dnb-hugo-giscus
 # update to a specific version
@@ -57,6 +61,32 @@ hugo mod get -u github.com/dnb-org/dnb-hugo-giscus@v1.0.0
 hugo mod get -u ./...
 ```
 <!--- INSTALLUPDATE END --->
+
+## Configuration
+
+The module accepts configuration via params section in your configuration file.
+
+```toml
+[dnb.giscus]
+src = "https://giscus.app/client.js"
+dataRepo = "username/reponame"
+dataRepoId = "ABCDEFGHIJKLMNOPQSTUVXYZABCDEFGH"
+dataCategory = "Comments"
+dataCategoryId = "ABCDEFGHIJKLMNOPQRST"
+dataMapping = "specific"
+dataLoading = "lazy"
+dataReactionsEnabled = "1"
+dataEmitMetadata = "0"
+dataInputPosition = "top"  # top, bottom
+dataTheme = "dark"
+dataLang = "en"
+```
+
+The data-parameter correspond with the parameters of Giscus. The four parameters `dataRepo`, `dataRepoId`, `dataCategory`, and `dataCategoryId` are required. All other parameters are optional and have default values as shown in the sample above.
+
+You can find the proper values for your setup by filling out the form on the [Giscus configuration page](https://giscus.app/configuration).
+
+The default `dataMapping` is set to specific and will use the title of the post as term.
 
 <!--- COMPONENTS BEGIN --->
 
