@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/dnb-org/dnb-hugo-giscus/compare/v1.0.7...v1.1.0) (2022-03-19)
+
+
+### Features
+
+* add giscus.json with setup for comment order and origin setup ([42ab6a3](https://github.com/dnb-org/dnb-hugo-giscus/commit/42ab6a38f21f1ccd83955673984c884ff31bac33))
+
+
+### Documentation
+
+* update README.md with advanced setup options ([7dc0fdc](https://github.com/dnb-org/dnb-hugo-giscus/commit/7dc0fdc4956d814162d1cc8ee5836e9e5ed107d0))
+
 ### [1.0.7](https://github.com/dnb-org/dnb-hugo-giscus/compare/v1.0.6...v1.0.7) (2022-03-19)
 
 
