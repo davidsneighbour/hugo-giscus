@@ -41,11 +41,14 @@ hugo mod init github.com/username/reponame
 Then add this module to your required modules in `config.toml`.
 
 ```toml
+[module]
+
 [[module.imports]]
 path = "github.com/dnb-org/dnb-hugo-giscus"
 disable = false
 ignoreConfig = false
 ignoreImports = false
+
 ```
 
 The next time you run `hugo` it will download the latest version of the module.

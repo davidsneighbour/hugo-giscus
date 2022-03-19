@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.7](https://github.com/dnb-org/dnb-hugo-giscus/compare/v1.0.6...v1.0.7) (2022-03-19)
+
+
+### Chore
+
+* cleanup ([defc7d5](https://github.com/dnb-org/dnb-hugo-giscus/commit/defc7d5b689d03898a91edd76ee605a321310df6))
+* **config:** cleanup package.json ([6d3382d](https://github.com/dnb-org/dnb-hugo-giscus/commit/6d3382d73fba2cf989c80b99e929f9b5bab6d589))
+* **config:** namespaced package ([61a24ec](https://github.com/dnb-org/dnb-hugo-giscus/commit/61a24ec0628864057d5a808caa20428d1dd9c3fe))
+* **deps:** cleanup dependencies ([b0f2b12](https://github.com/dnb-org/dnb-hugo-giscus/commit/b0f2b12c2bf446a164ed5645a945e7e8553cfc49))
+
+
+### Documentation
+
+* update README.md with configuration instructions ([e4f328a](https://github.com/dnb-org/dnb-hugo-giscus/commit/e4f328aa9ed5af4fa11a85c1d73e30525a255ae4)), closes [#1](https://github.com/dnb-org/dnb-hugo-giscus/issues/1)
+
 ### [1.0.6](https://github.com/dnb-org/dnb-hugo-giscus/compare/v1.0.5...v1.0.6) (2022-03-19)
 
 

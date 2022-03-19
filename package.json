@@ -1,6 +1,6 @@
 {
   "name": "@dnb-org/dnb-hugo-giscus",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "MIT",
   "description": "A Hugo theme component to add the Giscus comment system to static websites.",
   "author": {
