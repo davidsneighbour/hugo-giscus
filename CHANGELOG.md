@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.6](https://github.com/dnb-org/dnb-hugo-giscus/compare/v1.0.5...v1.0.6) (2022-03-19)
+
+
+### Features
+
+* add lazy loading option for iframe ([1c437d9](https://github.com/dnb-org/dnb-hugo-giscus/commit/1c437d96f4f8dd06b104dbf331a4c594d74a07c5)), closes [giscus/giscus#431](https://github.com/giscus/giscus/issues/431)
+* **config:** add a default configuration ([f2277f2](https://github.com/dnb-org/dnb-hugo-giscus/commit/f2277f2e299069005f9b094e4e45bd827d292087))
+* proper positioning after github login ([1f4c64b](https://github.com/dnb-org/dnb-hugo-giscus/commit/1f4c64b5216df0d183299564a216ebae7f986156)), closes [giscus/giscus#436](https://github.com/giscus/giscus/issues/436)
+
+
+### Bug Fixes
+
+* better id for comment form ([303fcae](https://github.com/dnb-org/dnb-hugo-giscus/commit/303fcae933af3a2f8743d41b9ba9fa9c6055ec8e))
+
+
+### Build System
+
+* **dependabot:** update to monthly update checks ([690503e](https://github.com/dnb-org/dnb-hugo-giscus/commit/690503eee5dad8f4bffa4888e93b993859b21144))
+
+
+### Chore
+
+* **deps:** update dependencies ([b1235d9](https://github.com/dnb-org/dnb-hugo-giscus/commit/b1235d97ee14ae5f22a7e1bf291f17da0e47b663))
+
 ### [1.0.5](https://github.com/dnb-org/dnb-hugo-giscus/compare/v1.0.4...v1.0.5) (2022-03-17)
 
 
