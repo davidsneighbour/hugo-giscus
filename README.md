@@ -91,6 +91,43 @@ You can find the proper values for your setup by filling out the form on the [Gi
 
 The default `dataMapping` is set to specific and will use the title of the post as term.
 
+### Advanced setup
+
+With a little bit of more work you can set Giscus up to allow only connections from specific sources and define the comment order.
+
+This can be done with this module's configuration and future updates to these features will be integrated. Or you create the giscus.json in your static directory manually and keep it up to date. The instructions are [here](https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#giscusjson).
+
+To configure the module to create the giscus.json add the custom output format `GISCUS` to your home section:
+
+```toml
+[outputs]   
+home = ["HTML", "GISCUS"]
+```
+
+Be careful to not override the existing home output formats.
+
+Once added you will find a `giscus.json` in your website root.
+
+**Comment sort order:**
+
+Available options are `oldest` (sorting from oldest to newest comment) and `newest` (sorting newest to oldest).
+
+```toml
+
+[dnb.giscus.extended]
+defaultCommentOrder = "oldest" 
+```
+
+**Origin setup:**
+
+```toml
+[dnb.giscus.extended]
+origins = ["https://yourdomainname.ext", "http://localhost:1313"]
+originsRegex = ["http://localhost:(1313|8080)"]
+```
+
+Add your origins to the params configuration. Leave the options out to not add them to your `giscus.json`.
+
 <!--- COMPONENTS BEGIN --->
 
 ## Other [GoHugo](https://gohugo.io/) components by [@dnb-org](https://github.com/dnb-org/)
