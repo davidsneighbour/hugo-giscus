@@ -2,7 +2,7 @@
   "name": "dnb-hugo-giscus",
   "version": "1.0.6",
   "license": "MIT",
-  "description": "Giscus comment system for GoHugo",
+  "description": "A Hugo theme component to add the Giscus comment system to static websites.",
   "author": {
     "name": "Patrick Kollitsch",
     "email": "patrick@davids-neighbour.com",
@@ -12,7 +12,6 @@
   "repository": "dnb-org/dnb-hugo-giscus",
   "bugs": "https://github.com/dnb-org/dnb-hugo-giscus/issues",
   "devDependencies": {
-    "@dnb-org/remark-config": "^3.5.11",
     "@dnb-org/standard-version-config": "^3.5.9",
     "@dnb-org/tools": "^3.5.9"
   },
@@ -29,9 +28,5 @@
       "@dnb-org/remark-config"
     ]
   },
-  "slug": "dnb-hugo-giscus",
-  "dependencies": {
-    "mem": "^9.0.2",
-    "trim": "^1.0.1"
-  }
+  "slug": "dnb-hugo-giscus"
 }
