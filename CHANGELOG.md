@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/dnb-org/dnb-hugo-giscus/compare/v1.1.0...v1.1.1) (2022-04-06)
+
+
+### Chore
+
+* update go.mod ([2bbbaee](https://github.com/dnb-org/dnb-hugo-giscus/commit/2bbbaeedff3690d28ec0c54f42eb327a5c68a3d3))
+
 ## [1.1.0](https://github.com/dnb-org/dnb-hugo-giscus/compare/v1.0.7...v1.1.0) (2022-03-19)
 
 
