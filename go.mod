@@ -1,3 +1,3 @@
-module github.com/dnb-org/dnb-hugo-giscus
+module github.com/davidsneighbour/hugo-giscus
 
 go 1.17
