@@ -1,5 +1,5 @@
 {
-  "name": "@dnb-org/dnb-hugo-giscus",
+  "name": "@davidsneighbour/hugo-giscus",
   "version": "1.1.1",
   "license": "MIT",
   "description": "A Hugo theme component to add the Giscus comment system to static websites.",
@@ -8,9 +8,9 @@
     "email": "patrick@davids-neighbour.com",
     "web": "https://davids-neighbour.com"
   },
-  "homepage": "https://github.com/dnb-org/dnb-hugo-giscus",
-  "repository": "dnb-org/dnb-hugo-giscus",
-  "bugs": "https://github.com/dnb-org/dnb-hugo-giscus/issues",
+  "homepage": "https://github.com/davidsneighbour/hugo-giscus",
+  "repository": "davidsneighbour/hugo-giscus",
+  "bugs": "https://github.com/davidsneighbour/hugo-giscus/issues",
   "devDependencies": {
     "@dnb-org/standard-version-config": "^3.5.9",
     "@dnb-org/tools": "^3.5.9"

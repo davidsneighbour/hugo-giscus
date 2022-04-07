@@ -1,5 +1,5 @@
 ################################################################################
-# dnb-hugo-giscus @see https://github.com/dnb-org/dnb-hugo-giscus
+# dnb-hugo-giscus @see https://github.com/davidsneighbour/hugo-giscus
 ################################################################################
 [dnb.giscus]
 src = "https://giscus.app/client.js"
