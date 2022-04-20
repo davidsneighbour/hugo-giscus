@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1](https://github.com/davidsneighbour/hugo-giscus/compare/v1.2.0...v1.2.1) (2022-04-20)
+
+
+### Build System
+
+* update Github organizatin name & use newer NPM dependencies ([#10](https://github.com/davidsneighbour/hugo-giscus/issues/10)) ([22c68a7](https://github.com/davidsneighbour/hugo-giscus/commit/22c68a759d35e68946e3327034c24a05597f0645))
+
 ## [1.2.0](https://github.com/davidsneighbour/hugo-giscus/compare/v1.1.1...v1.2.0) (2022-04-07)
 
 
