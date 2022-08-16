@@ -4,7 +4,12 @@
 <div id="giscus-comments" class="giscus"></div>
 {{ $dataEmitMetadata := .dataEmitMetadata | default "0" }}
 {{ $dataInputPosition := .dataInputPosition | default "top" }}
-{{ $dataTheme := .dataTheme | default "dark" }}
+{{- $dataTheme := .dataTheme | default "dark" -}}
+{{- with .dataThemeType -}}
+  {{- if eq . "local" -}}
+    {{- $dataTheme = site.Params.dnb.giscus.dataTheme | absURL -}}
+  {{- end -}}
+{{- end -}}
 {{ $dataLang := .dataLang | default "en" }}
 {{ $dataReactionsEnabled := .dataReactionsEnabled | default "1" }}
 {{ $dataSrc := .src | default "https://giscus.app/client.js" }}
