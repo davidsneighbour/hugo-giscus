@@ -12,8 +12,7 @@
   "repository": "davidsneighbour/hugo-giscus",
   "bugs": "https://github.com/davidsneighbour/hugo-giscus/issues",
   "devDependencies": {
-    "@davidsneighbour/standard-version-config": "^4.0.1",
-    "@davidsneighbour/tools": "^4.0.1"
+    "@davidsneighbour/config": "^1.0.18"
   },
   "scripts": {
     "clean": "run-p clean:*",
@@ -26,7 +25,7 @@
   "private": true,
   "remarkConfig": {
     "plugins": [
-      "@davidsneighbour/remark-config"
+      "@davidsneighbour/config/remark"
     ]
   }
 }
