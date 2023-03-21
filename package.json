@@ -12,7 +12,7 @@
   "repository": "davidsneighbour/hugo-giscus",
   "bugs": "https://github.com/davidsneighbour/hugo-giscus/issues",
   "devDependencies": {
-    "@davidsneighbour/config": "^1.0.18"
+    "@davidsneighbour/config": "^5.0.1"
   },
   "scripts": {
     "clean": "run-p clean:*",
