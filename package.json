@@ -1,6 +1,6 @@
 {
   "name": "@davidsneighbour/hugo-giscus",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "license": "MIT",
   "description": "A Hugo theme component to add the Giscus comment system to static websites.",
   "author": {

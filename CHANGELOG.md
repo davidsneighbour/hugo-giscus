@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.4](https://github.com/davidsneighbour/hugo-giscus/compare/v1.2.3...v1.2.4) (2023-03-21)
+
+
+### Features
+
+* add more defaults and update config ([32e2154](https://github.com/davidsneighbour/hugo-giscus/commit/32e2154a79d9e5a549c3c7508548135f5989c049))
+
 ### [1.2.3](https://github.com/davidsneighbour/hugo-giscus/compare/v1.2.2...v1.2.3) (2022-08-16)
 
 
